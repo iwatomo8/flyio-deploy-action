@@ -7,7 +7,7 @@ primary_region = "nrt"
 processes = []
 
 [env]
-  PORT = "8080"
+  PORT = "${PORT}"
 
 [experimental]
   auto_rollback = true
